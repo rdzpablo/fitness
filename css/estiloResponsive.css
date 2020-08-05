@@ -1,0 +1,395 @@
+@media (max-width:320px){
+    .menu{
+        display: block;
+    }
+    .fila nav{
+        height: 40px;
+    }
+    .fila nav ul {
+        width: 100%;
+        padding: 0;
+        margin: 40px 0;
+        list-style: none;
+        background-color: #fff;
+        transform: translateY(-150%);
+        transition: 1.2s ease-in-out;
+    }
+    .fila nav ul li {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .banner .fila .titulo {
+        width: 90%;
+        height: 100vh;
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+    }
+    .banner .fila .titulo h1 {
+        width: 100%;
+        font-size: 20PX;
+        font-family: 'Fugaz One', cursive;
+        color: #fff;
+        line-height: 0;
+    }
+    .titulo span {
+        width: 100%;
+        font-size: 40PX;
+        margin: 0 10px;
+        line-height: 1;
+    }
+    button {
+        height: 40px;
+        width: 150px;
+        font-size: 13px;
+    }
+    .entrena .titulos{
+        text-align: center;
+    }
+    .entrena .entrenadores .caja {
+        flex: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .entrena .entrenadores .caja h4 {
+        font-size: 24px;
+        line-height: 24px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .boxeo .fila {
+        width: 100%;
+        background-position: right;
+        position: relative;
+    }
+    .boxeo .nombre {
+        width: 40%;
+        position: absolute;
+        top: 0;
+        left:57%;
+        text-align: center;
+    }
+    .boxeo .nombre h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .boxeo button{
+         height: 40px;
+         width: 90px;
+         font-size: 13px;
+    }
+    .video .fila {
+        width: 100%;
+    }
+    
+    .video .fila .nombre h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .video button{
+         height: 40px;
+         width: 90px;
+         font-size: 13px;
+    }
+
+}
+@media (min-width:321px) and (max-width:480px){
+    .menu{
+        display: block;
+    }
+    .fila nav{
+        height: 40px;
+    }
+    .fila nav ul {
+        width: 100%;
+        padding: 0;
+        margin: 40px 0;
+        list-style: none;
+        background-color: #fff;
+        transform: translateY(-150%);
+        transition: 1.2s ease-in-out;
+    }
+    .fila nav ul li {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .banner .fila .titulo {
+        width: 90%;
+        height: 100vh;
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+    }
+    .banner .fila .titulo h1 {
+        width: 100%;
+        font-size: 30PX;
+        font-family: 'Fugaz One', cursive;
+        color: #fff;
+        line-height: 0;
+    }
+    .titulo span {
+        width: 100%;
+        font-size: 50PX;
+        margin: 0 10px;
+        line-height: 1;
+    }
+    .menu i {
+        font-size: 25px;
+    }
+    button {
+        height: 40px;
+        width: 150px;
+        font-size: 13px;
+    }
+    .texto .fila .parrafo p {
+        font-size: 22px;
+        line-height: 25px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+    .entrena .titulos{
+        text-align: center;
+    }
+    .entrena .entrenadores .caja {
+        flex: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .entrena .entrenadores .caja h4 {
+        font-size: 24px;
+        line-height: 24px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .entrena .entrenadores .caja p {
+        margin-top: 0;
+        font-size: 17px;
+        line-height: 16px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+    .boxeo .fila {
+        width: 100%;
+        background-position: right;
+        position: relative;
+    }
+    .boxeo .nombre {
+        width: 40%;
+        position: absolute;
+        top: 0;
+        left:57%;
+        text-align: center;
+    }
+    .boxeo .nombre h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .boxeo button{
+         height: 40px;
+         width: 90px;
+         font-size: 13px;
+    }
+    .video .fila {
+        width: 100%;
+    }
+    
+    .video .fila .nombre h3 {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .video button{
+         height: 40px;
+         width: 90px;
+         font-size: 13px;
+    }
+}
+
+@media (max-width:768px){
+    .menu{
+        display: block;
+    }
+    .fila nav{
+        height: 40px;
+    }
+    .fila nav ul {
+        width: 100%;
+        padding: 0;
+        margin: 40px 0;
+        list-style: none;
+        background-color: #fff;
+        transform: translateY(-150%);
+        transition: 1.2s ease-in-out;
+    }
+    .fila nav ul li {
+        display: block;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .banner .fila .titulo {
+        width: 90%;
+        height: 100vh;
+        justify-content: center;
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+    }
+    .banner .fila .titulo h1 {
+        width: 100%;
+        font-size: 40PX;
+        font-family: 'Fugaz One', cursive;
+        color: #fff;
+        line-height: 0;
+    }
+    .titulo span {
+        width: 100%;
+        font-size: 65PX;
+        margin: 0 10px;
+        line-height: 1;
+    }
+    .menu i {
+        font-size: 25px;
+    }
+    button {
+        height: 40px;
+        width: 150px;
+        font-size: 13px;
+    }
+    .texto .fila .parrafo p {
+        font-size: 22px;
+        line-height: 25px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+    .entrena .titulos{
+        text-align: center;
+    }
+    .entrena .entrenadores .caja {
+        flex: 100%;
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .entrena .entrenadores .caja h4 {
+        font-size: 24px;
+        line-height: 24px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin-bottom: 10px;
+    }
+    .entrena .entrenadores .caja p {
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 16px;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
+    .boxeo .fila {
+        width: 100%;
+        position: relative;
+    }
+    .boxeo .nombre {
+        width: 40%;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+    .boxeo .nombre h3 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .boxeo button{
+         height: 40px;
+         width: 90px;
+         font-size: 13px;
+    }
+    .video .fila {
+        width: 100%;
+    }
+    
+    .video .fila .nombre h3 {
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .video button{
+         height: 40px;
+         width: 90px;
+         font-size: 13px;
+    }
+}
+
+@media (min-width:769px) and  (max-width:991px){
+    .titulo h1{
+        font-size: 50px;
+    }
+    .titulo span{
+        font-size: 90px;
+    }
+    .entrena .entrenadores .caja h4 {
+        width: 80%;
+    }
+    .boxeo .fila {
+        width: 100%;
+    }
+    .video .fila {
+        width: 100%;
+    }
+    .entrena .entrenadores .caja p{
+        font-size: 22px;
+    }
+    .texto .fila .parrafo p{
+        font-size: 22px;
+    }
+}
+@media (min-width:991px) and  (max-width:1024px){
+    .boxeo .fila {
+        width: 100%;
+    }
+    .video .fila {
+        width: 100%;
+    }
+    .entrena .entrenadores .caja p{
+        font-size: 21px;
+    }
+    .texto .fila .parrafo p{
+        font-size: 21px;
+    }
+}
+@media (max-width:1200px){
+    .boxeo .fila {
+        width: 100%;
+    }
+    .video .fila {
+        width: 100%;
+    }
+}
+@media (min-width:1201px){
+    .entrena .entrenadores .caja p{
+        font-size: 22px;
+    }
+    .texto .fila .parrafo p{
+        font-size: 18px;
+    }
+    .boxeo .fila {
+        width: 100%;
+    }
+    .video .fila {
+        width: 100%;
+    }
+}
